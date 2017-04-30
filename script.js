@@ -125,6 +125,7 @@ runSimulation.prototype.getList = function() {
     .concat([[-1,-1]]);
 }
 
+// Run the simulation for a number of generations specified by this loop
 for (let i = 0; i < 1; i++) {
   const simulation = new runSimulation(data);
   data = simulation.getList();
