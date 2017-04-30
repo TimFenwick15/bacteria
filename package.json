@@ -1,0 +1,15 @@
+{
+  "name": "bacteria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "rewire": "^2.5.2"
+  }
+}
